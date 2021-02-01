@@ -31,6 +31,11 @@ Warehouse management is control of the day-to-day operations of a warehouse such
     _Task: Improve warehouse performance_
 
 5. **Shipping support**: to manage the shipping shipment notifications or rearrangement notification
+
+6. **Receiving / handling support**: through wireless devices to scan and generate barcodes can be helped with a quick and easy way of support.
+
+ _Task: Generate barcode reader using java_
+
  
 **Our second goal** will be to develop a web application where you could use your warehouse to rent storage space and invoice your customer, or also includes features to have a more complete supply chain management program , these features will help to manage the delivery time, the orders , stock management to store most valuable items using less space or check the turnover of specific items (like food):
  
