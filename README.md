@@ -34,7 +34,7 @@ Warehouse management is control of the day-to-day operations of a warehouse such
 
 6. **Receiving / handling support**: through wireless devices to scan and generate barcodes can be helped with a quick and easy way of support.
 
- _Task: Generate barcode reader using java_
+    _Task: Generate barcode reader using java_
 
  
 **Our second goal** will be to develop a web application where you could use your warehouse to rent storage space and invoice your customer, or also includes features to have a more complete supply chain management program , these features will help to manage the delivery time, the orders , stock management to store most valuable items using less space or check the turnover of specific items (like food):
@@ -43,15 +43,15 @@ Warehouse management is control of the day-to-day operations of a warehouse such
 
 2. **Delivery**: adding a feature to know the delivery time per items and the minimum stock level they need, it will generate an alert or pit on the report on command 4 what items need to be reorder.
 
-3. **Enter** what items and how much items you used on a time period ( weekly, monthly) the a report will tell when you will be below you security stock level and when to reorder according to the delivery time
+3. **Enter** what items and how much items you used on a time period ( weekly, monthly) the a report will tell when you will be below you security stock level and when to reorder according to the delivery time.
 
     _Task: Implement reporting features_
  
  4. **Improve visibility**: To make planning and forecasting easier for managers, visibility allows users to increase the accuracy of handling their products.
 
-5. **Build the Login page** with authentication for web
+5. **Build the Login page** with authentication for  the web: For security of login, it can be used a platform like a firebase supports a backend as a service.
 
-TODO:[Project Brainstorm Lab](https://shanep.github.io/capstone/labs/project/)
+
 
 
 
