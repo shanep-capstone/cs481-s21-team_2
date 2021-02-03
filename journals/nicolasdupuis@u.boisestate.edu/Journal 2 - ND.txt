@@ -1,0 +1,30 @@
+Meeting 1
+Attendance: Nicolas Dupuis, Anna Han, Troy Livingston
+Date: January 28,2021
+This week, the team focused on the project brainstorm, We reviewed the sponsored projects but we were not intered by any of them.
+We came up with different ideas with the team :
+Create a video game
+
+a warehouse / supply chain management program
+
+a bank web app to help the user to budget their expense, analyse their financial beahivior, help them saving money...
+ 
+A grocery list app to help manage the food and menu
+
+After discussing more with the team, we selected 2 project the bank app and the warehouse. The video game seems really vague and we did not have clear guidelines on where to start , for the grocery list , we were not really attracted by this project the final goal of the app was unsure
+
+After debating the pros and cons of both projects selected , we finally choose the warehouse management project as we could first developp it as an in house program then develop a web interface. For the bank app project , we were also worried about the data protection  as personal finance data are really sensitive
+
+We described the different parts and feature of the warehouse project and check if it will match the projects requirements
+
+
+
+My task for this week:
+Describe the different project ideas
+Find the different features for the selected project
+
+
+Check our "Tasks"
+Find project ideas
+Select a project 
+Write an epic about this project
