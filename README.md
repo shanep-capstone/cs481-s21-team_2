@@ -41,6 +41,11 @@ Warehouse management is control of the day-to-day operations of a warehouse such
 
 5. **Build the Login page** with authentication for  the web: For security of login, it can be used a platform like a firebase supports a backend as a service.
 
+### Feedback from Shane
+
+This is a great project idea! I have worked in industry on ERP/MRP projects and I know that there are a few small companies in the valley who would jump on an inventory system that just works. I would say if you are starting with a desktop app you should use C# and winforms. It would be the quickest to start with and is really well supported.
+
+I am excited to see the finished project! 
 
 
 
