@@ -1,4 +1,4 @@
-# Meeting 0
+# Journal 2
 
 ### Attendance: Nicolas Dupuis, Anna Han, Troy Livingston
 ### Date: January 21,2021
@@ -12,7 +12,7 @@
 
 - For the project idea, we couldn't come up with many ideas but shared several ideas. Our team decided to have a short meeting later after thinking about more ideas.
 
-- Our team had another zoom meeting before class    started and shared our project ideas. This time we taked about the steps for planning also.
+- Our team had another zoom meeting before class started and shared our project ideas. This time we taked about the steps for planning also.
 
  
 ### **My task for this week:**
