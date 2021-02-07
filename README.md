@@ -37,7 +37,7 @@ Warehouse management is control of the day-to-day operations of a warehouse such
 
 3. **Enter** what items and how much items you used on a time period ( weekly, monthly) the a report will tell when you will be below you security stock level and when to reorder according to the delivery time. Implement reporting features
  
- 4. **Improve visibility**: To make planning and forecasting easier for managers, visibility allows users to increase the accuracy of handling their products.
+4. **Improve visibility**: To make planning and forecasting easier for managers, visibility allows users to increase the accuracy of handling their products.
 
 5. **Build the Login page** with authentication for  the web: For security of login, it can be used a platform like a firebase supports a backend as a service.
 
@@ -45,9 +45,22 @@ Warehouse management is control of the day-to-day operations of a warehouse such
 
 
 
-### Tech lab
+## Tech lab
 
-TODO:[Tech Lab](https://shanep.github.io/capstone/labs/tech/)
+### Java and Framework
+
+
+### C# and .NET Framework
+
+**C#** pronounced as **C sharp** that is a general-purpose, multi-paradigm, object-oriented programming language and was developed by Microsoft. It is a lot similar to Java syntactically and widely used for developing web and desktop applications.
+
+**.Net Framework** is a software development platform developed by Microsoft for building and running Windows applications. .NET Framework is part of the .NET platform, a collection of technologies for building apps for Linux, macOS, Windows, iOS, Android, and more. The . Net framework consists of developer tools, programming languages, and libraries to build desktop and web applications. It is also used to build websites, web services, and games.
+
+We can see these frameworks mainly consist of **Framework Class Libraries** and **Common Language Runtime(CLR)**. CLR is a run-time environment which executes the code written in any .NET programming languages like C#, F#, C++,VB.Net, etc.
+ A large number of class libraries are present in the framework. It provides a library of tested, reusable code that developers can call from their own apps. Mainly the applications are divided into three categories which are Window Forms, ASP.NET, ADO.NET. .NET Framework provides running apps including memory management that CLR provides, a common type system, an extensive class library, development frameworks and technologies, language interoperability, version compatibility, side-by-side execution to resolve version conflicts, multi targeting for working on multiple .NET Framework platforms.
+
+**Window Form** is a UI framework for building Windows desktop apps. It provides productive ways to create desktop apps based on the visual designer provided in Visual Studio. **ASP.NET** is a web application framework and can use a featured programming language to build web applications easily. **ADO.NET** is made of a set of classes that are used for connecting to a database, providing access to relational data such as SQL server and XML and retrieving results.
+
 
 ## Planning Lab
 
