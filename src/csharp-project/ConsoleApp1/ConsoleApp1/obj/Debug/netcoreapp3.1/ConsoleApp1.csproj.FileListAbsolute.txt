@@ -1,0 +1,13 @@
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
