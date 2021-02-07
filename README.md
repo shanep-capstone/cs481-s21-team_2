@@ -52,8 +52,6 @@ I am excited to see the finished project!
 
 ## Tech lab
 
-### Java and Framework
-
 
 ### C# and .NET Framework
 
@@ -65,6 +63,21 @@ We can see these frameworks mainly consist of **Framework Class Libraries** and 
  A large number of class libraries are present in the framework. It provides a library of tested, reusable code that developers can call from their own apps. Mainly the applications are divided into three categories which are Window Forms, ASP.NET, ADO.NET. .NET Framework provides running apps including memory management that CLR provides, a common type system, an extensive class library, development frameworks and technologies, language interoperability, version compatibility, side-by-side execution to resolve version conflicts, multi targeting for working on multiple .NET Framework platforms.
 
 **Window Form** is a UI framework for building Windows desktop apps. It provides productive ways to create desktop apps based on the visual designer provided in Visual Studio. **ASP.NET** is a web application framework and can use a featured programming language to build web applications easily. **ADO.NET** is made of a set of classes that are used for connecting to a database, providing access to relational data such as SQL server and XML and retrieving results.
+
+### Java and Spring Framework
+
+The programming language Java is one of the most popular as it is easy to run and to write. 
+Java is an object oriented language and is based on an english like syntax with few special characters which make it easy to read and to write but it also contains a huge library which will provide to its users really useful methods
+ 
+It is a universal language for 2 reasons, firstly it can run on a personal  terminal ( phone ,computers) or a distributed system and secondly because it is used in a variety of applications : web application, android application ... 
+
+The language is also really well supported and have a lot of software tools available to program in Java
+ 
+The framework Spring is one of the most popular, it contains different modules you can choose to develop specific programs : core, data access, web ... including also a wide variety of testing tools which is really useful for debugging easily. 
+
+The spring interface is also simpler as you will select the modules you need and will increase the programmer productivity. 
+
+Spring has a strong ecosystem which can provide a lot of template to develop a wide variety of applications
 
 
 ## Planning Lab
