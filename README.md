@@ -66,20 +66,19 @@ We can see these frameworks mainly consist of **Framework Class Libraries** and 
 
 ### Java and Spring Framework
 
-The programming language Java is one of the most popular as it is easy to run and to write. 
-Java is an object oriented language and is based on an english like syntax with few special characters which make it easy to read and to write but it also contains a huge library which will provide to its users really useful methods
+The programming language **Java** is one of the most popular as it is easy to run and to write. Java is an object oriented language and is based on an english like syntax with few special characters which make it easy to read and to write but it also contains a huge library which will provide to its users really useful methods.
  
-It is a universal language for 2 reasons, firstly it can run on a personal  terminal ( phone ,computers) or a distributed system and secondly because it is used in a variety of applications : web application, android application ... 
-
-The language is also really well supported and have a lot of software tools available to program in Java
+It is a universal language for **2 reasons**, firstly it can run on a personal  terminal ( phone ,computers) or a distributed system and secondly because it is used in a variety of applications : web application, android application ... The language is also really well supported and have a lot of software tools available to program in Java.
  
-The framework **Spring** is one of the most popular, it contains different modules you can choose to develop specific programs : core, data access, web ... including also a wide variety of testing tools which is really useful for debugging easily. 
+The **framework Spring** is one of the most popular, it contains different modules you can choose to develop specific programs: core, data access, web ... including also a wide variety of testing tools which is really useful for debugging easily. 
 
-The spring interface is also simpler as you will select the modules you need and will increase the programmer productivity. 
+The spring interface is also simpler as you will select the modules you need and will increase the programmer productivity. Spring has a strong ecosystem which can provide a lot of template to develop a wide variety of applications.
 
-Spring has a strong ecosystem which can provide a lot of template to develop a wide variety of applications
+As an **open source Java platform**, it provides core support for dependency injection, transaction management that is an important part of RDBMS-oriented enterprise application to ensure integrity and consistency, portable service abstraction, aspect-oriented programming that entails breaking down program logic into distinct parts classed concerns,web apps, data access and more. 
 
-We will use Spring boot for the standalone part and Spring MVC for the web app part of the project
+Spring is lightweight and covers most of Java EE(enterprise edition). A **Spring MVC** is used to build web applications and followers the Mode-View-Controller design pattern. A deployment descriptor is required. **String Boot** is a module that allows to build a stand-alone application with minimal or zero configuration. There is no requirement for a deployment.
+
+We will use Spring boot for the standalone part and Spring MVC for the web app part of the project.
 
 
 ## Planning Lab
