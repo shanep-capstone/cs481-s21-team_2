@@ -62,7 +62,7 @@ I am excited to see the finished project!
 We can see these frameworks mainly consist of **Framework Class Libraries** and **Common Language Runtime(CLR)**. CLR is a run-time environment which executes the code written in any .NET programming languages like C#, F#, C++,VB.Net, etc.
  A large number of class libraries are present in the framework. It provides a library of tested, reusable code that developers can call from their own apps. Mainly the applications are divided into three categories which are Window Forms, ASP.NET, ADO.NET. .NET Framework provides running apps including memory management that CLR provides, a common type system, an extensive class library, development frameworks and technologies, language interoperability, version compatibility, side-by-side execution to resolve version conflicts, multi targeting for working on multiple .NET Framework platforms.
 
-**Window Form** is a UI framework for building Windows desktop apps. It provides productive ways to create desktop apps based on the visual designer provided in Visual Studio. **ASP.NET** is a web application framework and can use a featured programming language to build web applications easily. **ADO.NET** is made of a set of classes that are used for connecting to a database, providing access to relational data such as SQL server and XML and retrieving results.
+**Window Form** is a UI framework for building Windows desktop apps. It provides productive ways to create desktop apps based on the visual designer provided in Visual Studio. **ASP.NET** is a web application framework and can use a featured programming language to build web applications easily. **The ASP.NET core MVC** provides a patterns-based way to build dynamic websites and full control over markup, and supports TDD-friendly development and use the latest web standards. **ADO.NET** is made of a set of classes that are used for connecting to a database, providing access to relational data such as SQL server and XML and retrieving results.
 
 ### Java and Spring Framework
 
@@ -73,7 +73,7 @@ It is a universal language for 2 reasons, firstly it can run on a personal  term
 
 The language is also really well supported and have a lot of software tools available to program in Java
  
-The framework Spring is one of the most popular, it contains different modules you can choose to develop specific programs : core, data access, web ... including also a wide variety of testing tools which is really useful for debugging easily. 
+The framework **Spring** is one of the most popular, it contains different modules you can choose to develop specific programs : core, data access, web ... including also a wide variety of testing tools which is really useful for debugging easily. 
 
 The spring interface is also simpler as you will select the modules you need and will increase the programmer productivity. 
 
