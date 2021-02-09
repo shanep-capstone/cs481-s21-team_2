@@ -79,6 +79,8 @@ The spring interface is also simpler as you will select the modules you need and
 
 Spring has a strong ecosystem which can provide a lot of template to develop a wide variety of applications
 
+We will use Spring boot for the standalone part and Spring MVC for the web app part of the project
+
 
 ## Planning Lab
 
