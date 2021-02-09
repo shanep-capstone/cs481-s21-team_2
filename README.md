@@ -66,7 +66,7 @@ We can see these frameworks mainly consist of **Framework Class Libraries** and 
 
 ### Java and Spring Framework
 
-The programming language **Java** is one of the most popular as it is easy to run and to write. Java is an object oriented language and is based on an english like syntax with few special characters which make it easy to read and to write but it also contains a huge library which will provide to its users really useful methods.
+The programming language **Java** is one of the most popular as it is easy to run and to write. Java is an object oriented language and is based on an English like syntax with few special characters which make it easy to read and to write but it also contains a huge library which will provide to its users really useful methods.
  
 It is a universal language for **2 reasons**, firstly it can run on a personal  terminal ( phone ,computers) or a distributed system and secondly because it is used in a variety of applications : web application, android application ... The language is also really well supported and have a lot of software tools available to program in Java.
  
