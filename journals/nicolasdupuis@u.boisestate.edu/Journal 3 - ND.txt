@@ -1,0 +1,23 @@
+Meeting 3
+Attendance: Nicolas Dupuis, Anna Han, Troy Livingston
+Date: Feb 03, 2021
+This week, the team focused on the tech lab , we choose the langueges and framework we will use for the project
+Following the teacher recommandation we decided to select for the programming language C# and .NET for the framework. But as none of us are familiar with this programming language we decided to select 
+also java as a safety net and for the framework Spring. We will do all the next assignements in both language which allow us to keep our options open for both language and if during th next assignments
+or during the firsts days of development we will select the most appropriate language.
+
+We investigated about C# and it seems closed to Java but also really relevant to use for our project.
+
+
+
+
+
+My task for this week:
+Find and select the relevant framework for Java programming language
+Describe about Java and Spring
+
+
+Check our "Tasks"
+Select programming languages
+Select Framework
+Write HelloWorld program
