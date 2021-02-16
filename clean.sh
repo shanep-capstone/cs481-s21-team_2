@@ -1,3 +1,3 @@
 #!/bin/bash
-dotclean
+dotnet clean
 exit 0
