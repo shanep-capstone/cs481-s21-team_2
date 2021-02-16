@@ -1,2 +1,4 @@
 #!/bin/bash
-exit 127
+# build for C#
+dotnet build
+exit 0
