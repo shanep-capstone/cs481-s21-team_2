@@ -1,0 +1,19 @@
+Meeting 4
+Attendance: Nicolas Dupuis, Anna Han, Troy Livingston
+Date: Feb 10, 2021
+This week , the team worked on the Build assignements , we created a build.sh file to be able to create/launch our app and a clean.sh file to be able to clean all the unused file after building our app
+The Framework .Net was really useful to be create this file and its handling really well the Make and clean file.
+
+
+
+
+
+My task for this week:
+Update Build and clean file
+Research on .Net feature
+
+
+Check our "Tasks"
+Create Build and clean file
+Select Framework
+Write HelloWorld program
