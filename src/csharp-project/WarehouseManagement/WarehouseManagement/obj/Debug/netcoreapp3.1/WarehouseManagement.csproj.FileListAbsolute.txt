@@ -1,0 +1,10 @@
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\bin\Debug\netcoreapp3.1\WarehouseManagement.exe
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\bin\Debug\netcoreapp3.1\WarehouseManagement.dll
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.csprojAssemblyReference.cache
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.Form1.resources
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.csproj.GenerateResource.cache
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.AssemblyInfoInputs.cache
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.AssemblyInfo.cs
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.csproj.CoreCompileInputs.cache
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.dll
+C:\Users\annah\Documents\CS481\cs481-s21-team_2\src\csharp-project\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.pdb
