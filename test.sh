@@ -1,2 +1,4 @@
 #!/bin/bash
-exit 127
+# test for C#
+dotnet test
+exit 0
