@@ -1,0 +1,19 @@
+Meeting 5
+Attendance: Nicolas Dupuis, Anna Han, Troy Livingston
+Date: Feb 17, 2021
+We created the test.sh file using .NET and we created our first tests in C#. For this , I created basic function we will use
+in our warehouse app such as adding/removing items quantity, giving a value for the items stored (itel quantity * price per items° and cheking the min and
+max value we can stored for each items.
+
+
+
+My task for this week:
+Look for information on github badge
+Implement automated test run on github each time we commit
+
+
+
+Check our "Tasks"
+Our build, clean and test file are complete, we need now to link them together and add more
+test when we will add code
+
