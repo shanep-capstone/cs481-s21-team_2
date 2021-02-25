@@ -4647,11 +4647,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagementTests\\WarehouseManagementTests.csproj",
+      "projectUniqueName": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagementTests\\WarehouseManagementTests.csproj",
       "projectName": "WarehouseManagementTests",
-      "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagementTests\\WarehouseManagementTests.csproj",
+      "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagementTests\\WarehouseManagementTests.csproj",
       "packagesPath": "C:\\Users\\annah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagementTests\\obj\\",
+      "outputPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagementTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\annah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4668,8 +4668,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj": {
-              "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj"
+            "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj": {
+              "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj"
             }
           }
         }

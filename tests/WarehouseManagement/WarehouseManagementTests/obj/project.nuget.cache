@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pKqW8jlhnu0T+QHmsjegDD2pvdIQeN76Bv8kREQpRZe55Rfk+ZKgloc/FUy++DhT/lXiH0sVwuhtuCpw7atAsw==",
+  "dgSpecHash": "jxNY62F405jgiJgR/+6W4BJ8KrbXpRUMhoGp8fcuZ9RzLhVDJU6l4TFhysxhbWhYO3wImzh0LSVLB/H7utELcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagementTests\\WarehouseManagementTests.csproj",
+  "projectFilePath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagementTests\\WarehouseManagementTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\annah\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\annah\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

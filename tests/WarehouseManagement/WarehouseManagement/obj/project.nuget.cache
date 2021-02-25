@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zMiLjO3Dev4Gg23u68ewjOamDd/w7wbEv6/ecjJCa1iT9Mv8WrBwK5w2vVSBc4Mv6bPhl+96GmeKdmvxcdI77Q==",
+  "dgSpecHash": "T+AmfD+Yul4wXmMUq1nkuGrVh6kC9dwIypcvRADGf3QPow2fbni4w9P8spJBztL/fp4xpbnApRMS4BnNV9WoQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj",
+  "projectFilePath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

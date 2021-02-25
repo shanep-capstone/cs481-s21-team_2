@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj": {}
+    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj": {
+    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj",
+        "projectUniqueName": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj",
         "projectName": "WarehouseManagement",
-        "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj",
+        "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagement\\WarehouseManagement.csproj",
         "packagesPath": "C:\\Users\\annah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WarehouseManagement\\WarehouseManagement\\obj\\",
+        "outputPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\tests\\WarehouseManagement\\WarehouseManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\annah\\AppData\\Roaming\\NuGet\\NuGet.Config",
