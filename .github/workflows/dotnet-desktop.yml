@@ -61,7 +61,8 @@ jobs:
       Wap_Project_Directory: tests\WarehouseManagement   # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
       Wap_Project_Path: tests\WarehouseManagement\WarehouseManagement\WarehouseManagement.csproj                 # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
       Actions_Allow_Unsecure_Commands: true # Allows AddPAth and SetEnv commands
-
+      DOTNET_CLI_TELEMETRY_OPTOUT: 1
+      
     steps:
     - name: Checkout
       uses: actions/checkout@v2
