@@ -11,16 +11,27 @@ jobs:
 
     runs-on: ubuntu-latest
     name: .NET 5 Application
-
+    
+    env:
+      Solution_Name: WinFormsAppWarehouseManagement.sln
+      Test_Project_Path: src\csharp-project\WinFormsAppWarehouseManagement\WinFormsAppWareHouseManagementTestProject\WinFormsAppWareHouseManagementTestProject.csproj
+      Wap_Project_Directory: src\csharp-project\WinFormsAppWarehouseManagement
+      Wap_Project_Path:  src\csharp-project\WinFormsAppWarehouseManagement\WinFormsAppWarehouseManagement.csproj
+      Actions_Allow_Unsecure_Commands: true # Allows AddPAth and SetEnv commands
+      DOTNET_CLI_TELEMETRY_OPTOUT: true
+      
     steps:
     - uses: actions/checkout@v2
     - name: Setup dotnet
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.x
+        
     - name: Restore dependencies
       run: dotnet restore
+      
     - name: Build
       run: dotnet build --no-restore
+      
     - name: Test
       run: dotnet test --no-build --verbosity normal
