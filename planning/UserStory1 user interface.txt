@@ -1,0 +1,40 @@
+User story User interface:
+
+## User Story
+
+As a user of the warehouse management program/worker in a warehouse, I want to be able to access easily to 
+the different functionality of the program through a simple and clear interface
+ so I am able to do my work efficiently 
+
+## Tasks
+
+1. Display a menu on the console (STOUT) showing all the functionalities
+2. Take input from the user throught (STIN) to access to a specific function
+3. After the input is entered by the user, display a specific menu for each function and guidelines on how to use it, 
+4. Create a return function to be able to return to the main menu from each functionality
+5. Ensure the user has clear guidelines on how to use themain menu, each function and what kind of input are expected or guidelines when the user is entering a wring input
+
+### Time estimation method
+Difficulty of the task :
+Minor:1 to 3 hours of work
+Medium:3 to 5 hours of work
+Major:More than 5 hours of work
+
+Estimation will be made by the team
+Task 1:
+Task 2:
+Task 3:
+Task 4:
+Task 5:
+
+The team used planning poker to estimate that each of my tasks is roughly ?? hours of work.
+
+## Definition of Done
+
+- Task 1 DOD - I will know that I am done by having a set of unit/system tests that
+  exercise my Model class. I can run my tests with the test.sh script and see the results
+  of the tests. My tests are ran on every commit with the results shown at https://github.com/example
+- Task 2 DOD - TODO:
+- Task 3 DOD - TODO:
+- Task 4 DOD - TODO:
+- Task 5 DOD - TODO:
