@@ -27,7 +27,7 @@ jobs:
         dotnet-version: 5.0.x
         
     - name: Restore dependencies
-      run: dotnet restore "$env:working-directory"
+      run: dotnet restore "$GITHUB_WORKSPACE"
       
     - name: Build
       run: dotnet build --no-restore
