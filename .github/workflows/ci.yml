@@ -31,7 +31,7 @@ jobs:
         dotnet-version: 5.0.x
         
     - name: Restore dependencies
-      run: echo "Deploying to production server on branch $GITHUB_REF"
+      run: dotnet restore
       
     - name: Build
       run: dotnet build --no-restore
