@@ -17,6 +17,7 @@ jobs:
       Wap_Project_Directory: src\csharp-project\WinFormsAppWarehouseManagement
       Wap_Project_Path:  src\csharp-project\WinFormsAppWarehouseManagement\WinFormsAppWarehouseManagement.csproj
       Actions_Allow_Unsecure_Commands: true # Allows AddPAth and SetEnv commands
+      working-directory: src\csharp-project\WinFormsAppWarehouseManagement\WinFormsAppWareHouseManagementTestProject
       DOTNET_CLI_TELEMETRY_OPTOUT: true
     steps:
     - uses: actions/checkout@v2
