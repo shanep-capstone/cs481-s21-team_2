@@ -6,23 +6,23 @@ on:
   pull_request:
     branches: [ master ]
     
-defaults:
-  run:
-    working-directory: src\csharp-project\WinFormsAppWarehouseManagement
+#defaults:
+  #run:
+    #working-directory: src\csharp-project\WinFormsAppWarehouseManagement
 
 jobs:
   build:
     
     runs-on: ubuntu-latest
     name: .NET 5 Application 
-    env:
-      Solution_Name: WinFormsAppWarehouseManagement.sln
-      Test_Project_Path: src\csharp-project\WinFormsAppWarehouseManagement\WinFormsAppWareHouseManagementTestProject\WinFormsAppWareHouseManagementTestProject.csproj
-      Wap_Project_Directory: src\csharp-project\WinFormsAppWarehouseManagement
-      Wap_Project_Path:  src\csharp-project\WinFormsAppWarehouseManagement\WinFormsAppWarehouseManagement.csproj
-      Actions_Allow_Unsecure_Commands: true # Allows AddPAth and SetEnv commands
-      working-directory: src\csharp-project\WinFormsAppWarehouseManagement\
-      DOTNET_CLI_TELEMETRY_OPTOUT: true
+    #env:
+      #Solution_Name: WinFormsAppWarehouseManagement.sln
+      #Test_Project_Path: src\csharp-project\WinFormsAppWarehouseManagement\WinFormsAppWareHouseManagementTestProject\WinFormsAppWareHouseManagementTestProject.csproj
+      #Wap_Project_Directory: src\csharp-project\WinFormsAppWarehouseManagement
+      #Wap_Project_Path:  src\csharp-project\WinFormsAppWarehouseManagement\WinFormsAppWarehouseManagement.csproj
+      #Actions_Allow_Unsecure_Commands: true # Allows AddPAth and SetEnv commands
+      #working-directory: src\csharp-project\WinFormsAppWarehouseManagement\
+      #DOTNET_CLI_TELEMETRY_OPTOUT: true
     steps:
     - uses: actions/checkout@v2
     - name: Setup dotnet
@@ -31,10 +31,13 @@ jobs:
         dotnet-version: 5.0.x
         
     - name: Restore dependencies
+      working-directory: src\csharp-project\WinFormsAppWarehouseManagement
       run: dotnet restore 
       
     - name: Build
+      working-directory: src\csharp-project\WinFormsAppWarehouseManagement
       run: dotnet build --no-restore
       
     - name: Test
+      working-directory: src\csharp-project\WinFormsAppWarehouseManagement
       run: dotnet test --no-build --verbosity normal
