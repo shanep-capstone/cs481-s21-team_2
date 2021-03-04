@@ -10,7 +10,7 @@ on:
     
 defaults:
   run:
-    working-directory: src\csharp-project\WinFormsAppWarehouseManagement
+    working-directory: src/csharp-project/WinFormsAppWarehouseManagement
 
 jobs:
   build:
@@ -33,13 +33,13 @@ jobs:
         dotnet-version: 5.0.x
         
     - name: Restore dependencies
-      working-directory: src\csharp-project\WinFormsAppWarehouseManagement
+      working-directory: src/csharp-project/WinFormsAppWarehouseManagement
       run: dotnet restore 
       
     - name: Build
-      working-directory: src\csharp-project\WinFormsAppWarehouseManagement
+      working-directory: src/csharp-project/WinFormsAppWarehouseManagement
       run: dotnet build --no-restore
       
     - name: Test
-      working-directory: src\csharp-project\WinFormsAppWarehouseManagement
+      working-directory: src/csharp-project/WinFormsAppWarehouseManagement
       run: dotnet test --no-build --verbosity normal
