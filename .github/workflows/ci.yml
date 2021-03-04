@@ -2,7 +2,8 @@ name: .NET 5 CI
 
 on:
   push:
-    branches: [ master ]
+    paths: 'src/csharp-project/WinFormsAppWarehouseManagement/**'
+    #branches: [ master ]
   pull_request:
     branches: [ master ]
     
@@ -14,8 +15,8 @@ defaults:
 
 jobs:
   build:
-    
-    runs-on: ubuntu-latest
+    runs-on: window-latest
+    #runs-on: ubuntu-latest
     name: .NET 5 Application 
     #env:
       #Solution_Name: WinFormsAppWarehouseManagement.sln
