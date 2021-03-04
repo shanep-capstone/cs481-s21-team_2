@@ -15,7 +15,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: window-latest
+    runs-on: windows-latest
     #runs-on: ubuntu-latest
     name: .NET 5 Application 
     #env:
