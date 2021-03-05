@@ -7,18 +7,9 @@ As a user of the warehouse management program/worker in a warehouse, I want to b
 ## Tasks
 
 
-
-2. **Shipping / receiving command**: to enter any new entry or shipping in the warehouse 
-
-3. **Report**: report could created by for specific item(s) and/or for a specific time period to let the user know 
-the shipping and receiving entries , stock left. Implement Total Transaction Management functionality
-
-
-5. **Shipping support**: to manage the shipping shipment notifications or rearrangement notification
-
 1. **Shipping / receiving command**:  take the  user input to add or remove quantity per items in the inventory and check if there are enough items to perform teach operation (not remove quantity of 5 if there are only 1 item left)
 2. Generate an entry report for the user, display the entry for a specific time period (last week, last month, etc) for a specific item or several items
-3. Generate an current inventory report for the user, display the current inventory with all the items and quantity 
+3. Generate a current inventory report for the user, display the current inventory with all the items and quantity 
 4. Put if the user request it, save per item a minimum level and maximum level of storage
 5. Generate automated alert if the minimum/maximum level of storage is reach
 
@@ -29,13 +20,14 @@ Medium:3 to 5 hours of work
 Major:More than 5 hours of work
 
 Estimation will be made by the team
-Task 1:
-Task 2:
-Task 3:
-Task 4:
-Task 5:
+Task 1: Minor
+Task 2: Medium
+Task 3: Minor
+Task 4: Medium
+Task 5: Minor
 
-The team used planning poker to estimate that each of my tasks is roughly ?? hours of work.
+The team used planning poker to estimate that each of my tasks is roughly 8 hours minimum of work.
+This time is not including meeting, conception, brainstrom and integration time
 
 ## Definition of Done
 

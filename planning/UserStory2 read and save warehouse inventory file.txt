@@ -21,13 +21,14 @@ Medium:3 to 5 hours of work
 Major:More than 5 hours of work
 
 Estimation will be made by the team
-Task 1:
-Task 2:
-Task 3:
-Task 4:
-Task 5:
+Task 1: Medium
+Task 2: Minor
+Task 3: Major
+Task 4: Minor
+Task 5: Major
 
-The team used planning poker to estimate that each of my tasks is roughly ?? hours of work.
+TThe team used planning poker to estimate that each of my tasks is roughly 15 hours minimum of work.
+This time is not including meeting, conception, brainstrom and integration time
 
 ## Definition of Done
 

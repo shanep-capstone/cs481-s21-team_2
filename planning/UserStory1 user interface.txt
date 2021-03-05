@@ -12,7 +12,7 @@ the different functionality of the program through a simple and clear interface
 2. Take input from the user throught (STIN) to access to a specific function
 3. After the input is entered by the user, display a specific menu for each function and guidelines on how to use it, 
 4. Create a return function to be able to return to the main menu from each functionality
-5. Ensure the user has clear guidelines on how to use themain menu, each function and what kind of input are expected or guidelines when the user is entering a wring input
+5. Ensure the user has clear guidelines on how to use the main menu, each function and what kind of input are expected or guidelines when the user is entering a wrong input
 
 ### Time estimation method
 Difficulty of the task :
@@ -21,13 +21,14 @@ Medium:3 to 5 hours of work
 Major:More than 5 hours of work
 
 Estimation will be made by the team
-Task 1:
-Task 2:
-Task 3:
-Task 4:
-Task 5:
+Task 1: Medium 
+Task 2: Minor
+Task 3: Medium  
+Task 4: Minor
+Task 5: Major 
 
-The team used planning poker to estimate that each of my tasks is roughly ?? hours of work.
+The team used planning poker to estimate that each of my tasks is roughly 13 hours minimum of work.
+This time is not including meeting, conception, brainstrom and integration time
 
 ## Definition of Done
 
