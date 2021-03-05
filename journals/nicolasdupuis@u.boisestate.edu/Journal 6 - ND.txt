@@ -1,0 +1,17 @@
+Meeting 6
+Attendance: Nicolas Dupuis, Anna Han, Troy Livingston
+Date: Feb 24, 2021
+This week , we tried to set up through the actions github menu, an automated test run each time we make a new commit. Unfortunately, we had issue to make it work the Build was failing, 
+we researched the errors messages and tried several change but none of them work. We had a meeting with our professor for over an hour to try to find a solution and debug the issue still with no 
+success. Our professor said as we have time limited on this project we could left this task on the side for now and if we want to investigate more do it later as it is seems to be a high level bug/ technical issues
+
+
+
+My task for this week:
+Investigate why automated test run failed
+
+
+
+Check our "Tasks"
+did not succeed to make the automated run even after a lot of try and research
+
