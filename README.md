@@ -83,6 +83,6 @@ We will use Spring boot for the standalone part and Spring MVC for the web app p
 
 ## Planning Lab
 
-- [Troy's Plan](planning/Troy Livingston)
-- [Troy's Plan](planning/Anna Han)
-- [Troy's Plan](planning/Nicolas DUPUIS)
+- [Troy's Plan](https://github.com/shanep-capstone/cs481-s21-team_2/tree/master/planning/Troy%20Livingston)
+- [Nicolas's Plan](https://github.com/shanep-capstone/cs481-s21-team_2/tree/master/planning/Nicolas%20DUPUIS)
+- [Anna's Plan](https://github.com/shanep-capstone/cs481-s21-team_2/tree/master/planning/Anna%20Han)
