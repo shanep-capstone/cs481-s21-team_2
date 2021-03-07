@@ -29,11 +29,14 @@ Task 5: Major
 
 TThe team used planning poker to estimate that each of my tasks is roughly 15 hours minimum of work.
 This time is not including meeting, conception, brainstrom and integration time
+We are planning 3 hours of meeting per week for the conception/reflexion about the menu and 2 more hours per week inthe last week for the integration and test.
 
 ## Definition of Done
 
-- Task 1 DOD - I will know that I am done when I can read a file with no errors and when a message prompt on the console telling the file was entered with success
-- Task 2 DOD - I will know that I am done if after entering a file witht he good format no message prompt on the console and a message explaining the required format prompt if the file is not under the right format
-- Task 3 DOD - I will know that I am done when the program select the relevant data form the file to parse them in the database
-- Task 4 DOD - I will know that I am done when I can display on the console a clear representation / picture of the current inventory in the wharehouse
-- Task 5 DOD - I will know that I am done when after I finished using the program I can save my data and update these change in my file
+- Task 1 DOD - I will know that I am done by having a set of unit/system tests that
+  exercise my Model class. I can run my tests with the test.sh script and see the results
+  of the tests. My tests are ran on every commit with the results shown at https://github.com/example
+- Task 2 DOD - TODO:
+- Task 3 DOD - TODO:
+- Task 4 DOD - TODO:
+- Task 5 DOD - TODO:

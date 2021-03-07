@@ -83,8 +83,6 @@ We will use Spring boot for the standalone part and Spring MVC for the web app p
 
 ## Planning Lab
 
-TODO:[Planning Lab](https://shanep.github.io/capstone/labs/planning/)
-
-- [Jane's Plan](planning/janedoe@u.boisestate.edu.md)
-- John's Plan
-- Bob's Plan
+- [Troy's Plan](planning/Troy Livingston)
+- [Troy's Plan](planning/Anna Han)
+- [Troy's Plan](planning/Nicolas DUPUIS)

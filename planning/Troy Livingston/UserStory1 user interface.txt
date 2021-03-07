@@ -9,7 +9,7 @@ the different functionality of the program through a simple and clear interface
 ## Tasks
 
 1. Display a menu on the console (STOUT) showing all the functionalities
-2. Take input from the user throught (STIN) to access to a specific function
+2. Take input from the user throught (STDIN) to access to a specific function
 3. After the input is entered by the user, display a specific menu for each function and guidelines on how to use it, 
 4. Create a return function to be able to return to the main menu from each functionality
 5. Ensure the user has clear guidelines on how to use the main menu, each function and what kind of input are expected or guidelines when the user is entering a wrong input
@@ -29,13 +29,12 @@ Task 5: Major
 
 The team used planning poker to estimate that each of my tasks is roughly 13 hours minimum of work.
 This time is not including meeting, conception, brainstrom and integration time
+We are planning 3 hours of meeting per week for the conception/reflexion about the menu and 2 more hours per week inthe last week for the integration and test.
 
 ## Definition of Done
 
-- Task 1 DOD - I will know that I am done by having a set of unit/system tests that
-  exercise my Model class. I can run my tests with the test.sh script and see the results
-  of the tests. My tests are ran on every commit with the results shown at https://github.com/example
-- Task 2 DOD - TODO:
-- Task 3 DOD - TODO:
-- Task 4 DOD - TODO:
-- Task 5 DOD - TODO:
+- Task 1 DOD - I will know that I am done when I can see the menu on the console once I start the program
+- Task 2 DOD - I will know that I am done when I can access to each function from a specific input from the STDIN
+- Task 3 DOD - I will know that I am done when I can access to a specific menu for each function with the right input or  guidelines are dipslayed if I enter a wrong input
+- Task 4 DOD - I will know that I am done when from anywhere in the menu I can go back to the main menu
+- Task 5 DOD - I will know that I am done when the users can access easily to each function and know what to do in any situation while using the program (user acceptance test) 
