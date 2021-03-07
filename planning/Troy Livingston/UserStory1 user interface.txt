@@ -35,7 +35,7 @@ This time is not including meeting, conception, brainstrom and integration time
 - Task 1 DOD - I will know that I am done by having a set of unit/system tests that
   exercise my Model class. I can run my tests with the test.sh script and see the results
   of the tests. My tests are ran on every commit with the results shown at https://github.com/example
-- Task 2 DOD - I will know that I am done when I can input the each information into 
+- Task 2 DOD - TODO:
 - Task 3 DOD - TODO:
 - Task 4 DOD - TODO:
 - Task 5 DOD - TODO:

@@ -2,7 +2,7 @@
 # Journal 7
 
 ### Attendance: Nicolas Dupuis, Anna Han, Troy Livingston
-### Date: March 4,  2021
+### Date: March 4,7  2021
 
   - 
 
