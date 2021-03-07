@@ -34,7 +34,8 @@ This time is not including meeting, conception, brainstrom and integration time
 - Task 1 DOD - I will know that I am done by having a set of unit/system tests that
   exercise my Model class. I can run my tests with the test.sh script and see the results
   of the tests. My tests are ran on every commit with the results shown at https://github.com/example
-- Task 2 DOD - TODO:
-- Task 3 DOD - TODO:
-- Task 4 DOD - TODO:
-- Task 5 DOD - TODO:
+- Task 2 DOD - I will know that I am done when the program select the entry report button with advanced search, 
+              and the screen displays the entries for selected items.
+- Task 3 DOD - I will know that I am done when I select the current inventory button, I can see all the items and quantity at that moment.
+- Task 4 DOD - I will know that I am done when I select the button for quantity warning, I can input the minimum/maximum amount into the each items
+- Task 5 DOD - I will know that I am done when I can see the alert on the console, whenever each item reaches the minimum/maximum amount of storage.
