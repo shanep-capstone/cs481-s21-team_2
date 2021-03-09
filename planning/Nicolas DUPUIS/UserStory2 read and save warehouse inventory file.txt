@@ -33,10 +33,8 @@ We are planning 3 hours of meeting per week for the conception/reflexion about t
 
 ## Definition of Done
 
-- Task 1 DOD - I will know that I am done by having a set of unit/system tests that
-  exercise my Model class. I can run my tests with the test.sh script and see the results
-  of the tests. My tests are ran on every commit with the results shown at https://github.com/example
-- Task 2 DOD - TODO:
-- Task 3 DOD - TODO:
-- Task 4 DOD - TODO:
-- Task 5 DOD - TODO:
+- Task 1 DOD - I will know that I am done when the program is able to read a file and dipslay a message on the consolde when it is done or an error message if there is an issue
+- Task 2 DOD - I will know that I am done if after I read a file the program is able to get all the relevant information and if not , display an error message with what expected format the file should be
+- Task 3 DOD - I will know that I am done when I can create a database based on the file read and retrieve information from it (input vs output tests completed)
+- Task 4 DOD - I will know that I am done when I can display on the console the database created in a readable way for the user
+- Task 5 DOD - I will know that I am done when I am done using the program I can create an updated file saving all the input entered 
