@@ -14,11 +14,11 @@ namespace WinFormsAppWarehouseManagement
         [STAThread]
         public static void Main()
         {
-            //Application.SetHighDpiMode(HighDpiMode.SystemAware);
-            //Application.EnableVisualStyles();
-            // Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
-            Console.WriteLine("Hello World!");
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            Application.EnableVisualStyles();
+             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new MainPage());
+            //Console.WriteLine("Hello World!");
         }
     }
 }

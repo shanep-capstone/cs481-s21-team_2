@@ -10,12 +10,18 @@ using System.Windows.Forms;
 
 namespace WinFormsAppWarehouseManagement
 {
-    public partial class Form1 : Form
+    public partial class ReportForm : Form
     {
-        public Form1()
+        public ReportForm()
         {
             InitializeComponent();
         }
 
+        private void BackToMainR_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainPage mp = new MainPage();
+            mp.ShowDialog();
+        }
     }
 }

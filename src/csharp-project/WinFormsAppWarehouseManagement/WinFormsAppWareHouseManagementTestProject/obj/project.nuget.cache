@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a9+L4rKRXxdOXXVQBrJmHBvx05rZ/jcEDrQZ5nRi+2SpAsgwo6B/pJndf7DKNDBqJyZY27vHqEVXlFFSwcC1yA==",
+  "dgSpecHash": "NzhNWzGi+9aSO9Di+493WJ2h2fU772QFsUstIfS9bRGkM4VI7hkwFWkfw6UobJIprSCJ00aZmQ8/g/Sfuqyfww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj",
+  "projectFilePath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\annah\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\annah\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
