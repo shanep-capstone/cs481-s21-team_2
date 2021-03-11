@@ -58,7 +58,7 @@ namespace WinFormsAppWarehouseManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2093, 1412);
+            this.ClientSize = new System.Drawing.Size(834, 561);
             this.Controls.Add(this.BackToMainFE);
             this.Controls.Add(this.FileEntry);
             this.Name = "FileEntryForm";
