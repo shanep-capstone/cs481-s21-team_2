@@ -29,5 +29,12 @@ namespace WinFormsAppWarehouseManagement
             MainPage mp = new MainPage();
             mp.ShowDialog();
         }
+
+        private void CheckContentBt_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FileEntryContents.FileContentsForm fc = new FileEntryContents.FileContentsForm();
+            fc.ShowDialog();
+        }
     }
 }

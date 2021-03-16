@@ -21,37 +21,35 @@ namespace WinFormsAppWarehouseManagement
         {
 
         }
-
-        private void Report_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            ReportForm rf = new ReportForm();
-            rf.ShowDialog();
-        }
-
-        private void FileEntry_Click(object sender, EventArgs e)
+        private void FileEntyBt_Click(object sender, EventArgs e)
         {
             this.Hide();
             FileEntryForm fef = new FileEntryForm();
             fef.ShowDialog();
-           
         }
 
-        private void ShippingReceivingCommand_Click(object sender, EventArgs e)
+        private void ShipReceiveBt_Click(object sender, EventArgs e)
         {
             this.Hide();
             ShippingReceivingForm srf = new ShippingReceivingForm();
             srf.ShowDialog();
         }
 
-        private void SaveFile_Click(object sender, EventArgs e)
+        private void ReportBt_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ReportForm rf = new ReportForm();
+            rf.ShowDialog();
+        }
+
+        private void SaveFileBt_Click(object sender, EventArgs e)
         {
             this.Hide();
             SaveFileForm sf = new SaveFileForm();
             sf.ShowDialog();
         }
 
-        private void Help_Click(object sender, EventArgs e)
+        private void HelpBt_Click(object sender, EventArgs e)
         {
             this.Hide();
             HelpForm h = new HelpForm();

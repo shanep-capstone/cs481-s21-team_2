@@ -31,6 +31,7 @@ namespace WinFormsAppWarehouseManagement
         {
             this.FileEntry = new System.Windows.Forms.Label();
             this.BackToMainFE = new System.Windows.Forms.Button();
+            this.CheckContentBt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FileEntry
@@ -46,7 +47,7 @@ namespace WinFormsAppWarehouseManagement
             // 
             // BackToMainFE
             // 
-            this.BackToMainFE.Location = new System.Drawing.Point(304, 341);
+            this.BackToMainFE.Location = new System.Drawing.Point(250, 423);
             this.BackToMainFE.Name = "BackToMainFE";
             this.BackToMainFE.Size = new System.Drawing.Size(288, 58);
             this.BackToMainFE.TabIndex = 1;
@@ -54,11 +55,22 @@ namespace WinFormsAppWarehouseManagement
             this.BackToMainFE.UseVisualStyleBackColor = true;
             this.BackToMainFE.Click += new System.EventHandler(this.BackToMainFE_Click);
             // 
+            // CheckContentBt
+            // 
+            this.CheckContentBt.Location = new System.Drawing.Point(208, 255);
+            this.CheckContentBt.Name = "CheckContentBt";
+            this.CheckContentBt.Size = new System.Drawing.Size(347, 68);
+            this.CheckContentBt.TabIndex = 2;
+            this.CheckContentBt.Text = "Check the content of file";
+            this.CheckContentBt.UseVisualStyleBackColor = true;
+            this.CheckContentBt.Click += new System.EventHandler(this.CheckContentBt_Click);
+            // 
             // FileEntryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(834, 561);
+            this.Controls.Add(this.CheckContentBt);
             this.Controls.Add(this.BackToMainFE);
             this.Controls.Add(this.FileEntry);
             this.Name = "FileEntryForm";
@@ -73,5 +85,6 @@ namespace WinFormsAppWarehouseManagement
 
         private System.Windows.Forms.Label FileEntry;
         private System.Windows.Forms.Button BackToMainFE;
+        private System.Windows.Forms.Button CheckContentBt;
     }
 }

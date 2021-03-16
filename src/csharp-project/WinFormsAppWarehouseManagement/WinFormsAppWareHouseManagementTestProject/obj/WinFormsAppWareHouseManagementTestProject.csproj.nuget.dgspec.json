@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj": {}
+    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj": {
+    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj",
+        "projectUniqueName": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj",
         "projectName": "WinFormsAppWareHouseManagementTestProject",
-        "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj",
+        "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWareHouseManagementTestProject\\WinFormsAppWareHouseManagementTestProject.csproj",
         "packagesPath": "C:\\Users\\annah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWareHouseManagementTestProject\\obj\\",
+        "outputPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWareHouseManagementTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\annah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj": {
-                "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj"
+              "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj": {
+                "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj"
               }
             }
           }
@@ -44,9 +44,17 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
             },
             "NUnit": {
               "target": "Package",
@@ -55,6 +63,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.16.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.4, )"
             }
           },
           "imports": [
@@ -79,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj": {
+    "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
+        "projectUniqueName": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
         "projectName": "WinFormsAppWarehouseManagement",
-        "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
+        "projectPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
         "packagesPath": "C:\\Users\\annah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\obj\\",
+        "outputPath": "C:\\Users\\annah\\Documents\\CS481\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWareHouseManagement\\WinFormsAppWarehouseManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\annah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,6 +126,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

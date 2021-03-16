@@ -29,103 +29,122 @@ namespace WinFormsAppWarehouseManagement
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.FileEntry = new System.Windows.Forms.Label();
-            this.ShippingReceivingCommand = new System.Windows.Forms.Label();
-            this.Report = new System.Windows.Forms.Label();
-            this.SaveFile = new System.Windows.Forms.Label();
-            this.Help = new System.Windows.Forms.Label();
+            this.FileEntyBt = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.MainTitle = new System.Windows.Forms.Label();
+            this.ShipReceiveBt = new System.Windows.Forms.Button();
+            this.ReportBt = new System.Windows.Forms.Button();
+            this.SaveFileBt = new System.Windows.Forms.Button();
+            this.HelpBt = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // FileEntyBt
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(105, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(629, 54);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Warehouse Management software";
+            this.FileEntyBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.FileEntyBt.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FileEntyBt.Location = new System.Drawing.Point(108, 171);
+            this.FileEntyBt.Name = "FileEntyBt";
+            this.FileEntyBt.Size = new System.Drawing.Size(1075, 80);
+            this.FileEntyBt.TabIndex = 6;
+            this.FileEntyBt.Text = "1. File Entry";
+            this.FileEntyBt.UseVisualStyleBackColor = false;
+            this.FileEntyBt.Click += new System.EventHandler(this.FileEntyBt_Click);
             // 
-            // FileEntry
+            // panel1
             // 
-            this.FileEntry.AutoSize = true;
-            this.FileEntry.Location = new System.Drawing.Point(147, 138);
-            this.FileEntry.Name = "FileEntry";
-            this.FileEntry.Size = new System.Drawing.Size(169, 41);
-            this.FileEntry.TabIndex = 1;
-            this.FileEntry.Text = "1. File Entry";
-            this.FileEntry.Click += new System.EventHandler(this.FileEntry_Click);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.panel1.Controls.Add(this.MainTitle);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1326, 110);
+            this.panel1.TabIndex = 7;
             // 
-            // ShippingReceivingCommand
+            // MainTitle
             // 
-            this.ShippingReceivingCommand.AutoSize = true;
-            this.ShippingReceivingCommand.Location = new System.Drawing.Point(146, 201);
-            this.ShippingReceivingCommand.Name = "ShippingReceivingCommand";
-            this.ShippingReceivingCommand.Size = new System.Drawing.Size(463, 41);
-            this.ShippingReceivingCommand.TabIndex = 2;
-            this.ShippingReceivingCommand.Text = "2. Shipping / Receiving command";
-            this.ShippingReceivingCommand.Click += new System.EventHandler(this.ShippingReceivingCommand_Click);
+            this.MainTitle.AutoSize = true;
+            this.MainTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.MainTitle.ForeColor = System.Drawing.Color.White;
+            this.MainTitle.Location = new System.Drawing.Point(329, 22);
+            this.MainTitle.Name = "MainTitle";
+            this.MainTitle.Size = new System.Drawing.Size(633, 54);
+            this.MainTitle.TabIndex = 0;
+            this.MainTitle.Text = "Warehouse Management Software";
             // 
-            // Report
+            // ShipReceiveBt
             // 
-            this.Report.AutoSize = true;
-            this.Report.Location = new System.Drawing.Point(146, 261);
-            this.Report.Name = "Report";
-            this.Report.Size = new System.Drawing.Size(138, 41);
-            this.Report.TabIndex = 3;
-            this.Report.Text = "3. Report";
-            this.Report.Click += new System.EventHandler(this.Report_Click);
+            this.ShipReceiveBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ShipReceiveBt.Location = new System.Drawing.Point(108, 279);
+            this.ShipReceiveBt.Name = "ShipReceiveBt";
+            this.ShipReceiveBt.Size = new System.Drawing.Size(1075, 80);
+            this.ShipReceiveBt.TabIndex = 8;
+            this.ShipReceiveBt.Text = "2. Shipping / Receiving Command";
+            this.ShipReceiveBt.UseVisualStyleBackColor = false;
+            this.ShipReceiveBt.Click += new System.EventHandler(this.ShipReceiveBt_Click);
             // 
-            // SaveFile
+            // ReportBt
             // 
-            this.SaveFile.AutoSize = true;
-            this.SaveFile.Location = new System.Drawing.Point(146, 321);
-            this.SaveFile.Name = "SaveFile";
-            this.SaveFile.Size = new System.Drawing.Size(163, 41);
-            this.SaveFile.TabIndex = 4;
-            this.SaveFile.Text = "4. Save File";
-            this.SaveFile.Click += new System.EventHandler(this.SaveFile_Click);
+            this.ReportBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ReportBt.Location = new System.Drawing.Point(107, 388);
+            this.ReportBt.Name = "ReportBt";
+            this.ReportBt.Size = new System.Drawing.Size(1075, 80);
+            this.ReportBt.TabIndex = 9;
+            this.ReportBt.Text = "3. Report";
+            this.ReportBt.UseVisualStyleBackColor = false;
+            this.ReportBt.Click += new System.EventHandler(this.ReportBt_Click);
             // 
-            // Help
+            // SaveFileBt
             // 
-            this.Help.AutoSize = true;
-            this.Help.Location = new System.Drawing.Point(148, 389);
-            this.Help.Name = "Help";
-            this.Help.Size = new System.Drawing.Size(469, 41);
-            this.Help.TabIndex = 5;
-            this.Help.Text = "5. Help : How to use this software ";
-            this.Help.Click += new System.EventHandler(this.Help_Click);
+            this.SaveFileBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.SaveFileBt.Location = new System.Drawing.Point(110, 489);
+            this.SaveFileBt.Name = "SaveFileBt";
+            this.SaveFileBt.Size = new System.Drawing.Size(1075, 80);
+            this.SaveFileBt.TabIndex = 10;
+            this.SaveFileBt.Text = "4. Save File";
+            this.SaveFileBt.UseVisualStyleBackColor = false;
+            this.SaveFileBt.Click += new System.EventHandler(this.SaveFileBt_Click);
+            // 
+            // HelpBt
+            // 
+            this.HelpBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.HelpBt.Location = new System.Drawing.Point(107, 601);
+            this.HelpBt.Name = "HelpBt";
+            this.HelpBt.Size = new System.Drawing.Size(1075, 80);
+            this.HelpBt.TabIndex = 11;
+            this.HelpBt.Text = "5. Help : How to use this software";
+            this.HelpBt.UseVisualStyleBackColor = false;
+            this.HelpBt.Click += new System.EventHandler(this.HelpBt_Click);
             // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(834, 561);
-            this.Controls.Add(this.Help);
-            this.Controls.Add(this.SaveFile);
-            this.Controls.Add(this.Report);
-            this.Controls.Add(this.ShippingReceivingCommand);
-            this.Controls.Add(this.FileEntry);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1326, 755);
+            this.Controls.Add(this.HelpBt);
+            this.Controls.Add(this.SaveFileBt);
+            this.Controls.Add(this.ReportBt);
+            this.Controls.Add(this.ShipReceiveBt);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.FileEntyBt);
             this.Name = "MainPage";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.MainPage_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label FileEntry;
-        private System.Windows.Forms.Label ShippingReceivingCommand;
-        private System.Windows.Forms.Label Report;
-        private System.Windows.Forms.Label SaveFile;
-        private System.Windows.Forms.Label Help;
+        private System.Windows.Forms.Button FileEntyBt;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label MainTitle;
+        private System.Windows.Forms.Button ShipReceiveBt;
+        private System.Windows.Forms.Button ReportBt;
+        private System.Windows.Forms.Button SaveFileBt;
+        private System.Windows.Forms.Button HelpBt;
     }
 }
 
