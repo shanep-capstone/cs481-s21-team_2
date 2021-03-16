@@ -19,7 +19,8 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
 
         public void Display()
         {
-            DbFileEntry.DisplayAndSerach("SECLECT id,item_name,quantity, location From file_information", DataGridView);
+           // DbFileEntry.DisplayAndSerach("SECLECT id,item_name,quantity, location From file_information", DataGridView);
+            DbFileEntry.DisplayAndSerach("Select id,item_name,quantity, location From file_information", DataGridView);
         }
         private void btNew_Click(object sender, EventArgs e)
         {

@@ -27,18 +27,31 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
 
             return sqlConn;
         }
+        public static void DisplayAndSerach(string query, DataGridView dgv)
+        {
+            string sql = query;
+            MySqlConnection con = GetConnection();
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
+            DataTable tbl = new DataTable();
+            adp.Fill(tbl);
+            con.Close();
+        }
         public static void AddFile(FileEntry fileEntry)
         {
-            string sql = " INSERT INTO WarehouseFile.file_information(@id, @item_name,@quantity,@location)";
+            
+            string sql = "INSERT INTO file_information VALUES (@id, @item_name,@quantity,@location)";
             MySqlConnection con = GetConnection();
             MySqlCommand cmd = new MySqlCommand(sql, con);
             cmd.CommandType = CommandType.Text;
-            cmd.Parameters.Add("@id", MySqlDbType.Int64).Value = fileEntry.Id;
-            cmd.Parameters.Add("@item_name", MySqlDbType.VarChar).Value = fileEntry.Item_Name;
-            cmd.Parameters.Add("@quantity", MySqlDbType.Int64).Value = fileEntry.Quantity;
-            cmd.Parameters.Add("@location", MySqlDbType.VarChar).Value = fileEntry.Location;
+            cmd.Parameters.Add("@id", MySqlDbType.Int64).Value = fileEntry.id;
+            cmd.Parameters.Add("@item_name", MySqlDbType.VarChar).Value = fileEntry.item_name;
+            cmd.Parameters.Add("@quantity", MySqlDbType.Int64).Value = fileEntry.quantity;
+            cmd.Parameters.Add("@location", MySqlDbType.VarChar).Value = fileEntry.location;
+            
             try
             {
+               
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Added Successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -49,16 +62,17 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             con.Close();
             
         }
+        /*
         public static void UpdateFile(FileEntry fileEntry, string id)
         {
             string sql = " UPDATE WarehouseFile.file_information SET id=@id, item_name=@item_name,quantity=@quantity,location=@location WHERE id=@id";
             MySqlConnection con = GetConnection();
             MySqlCommand cmd = new MySqlCommand(sql, con);
             cmd.CommandType = CommandType.Text;
-            cmd.Parameters.Add("@id", MySqlDbType.Int64).Value = fileEntry.Id;
-            cmd.Parameters.Add("@item_name", MySqlDbType.VarChar).Value = fileEntry.Item_Name;
-            cmd.Parameters.Add("@quantity", MySqlDbType.Int64).Value = fileEntry.Quantity;
-            cmd.Parameters.Add("@location", MySqlDbType.VarChar).Value = fileEntry.Location;
+            cmd.Parameters.Add("@id", MySqlDbType.Int64).Value = fileEntry.id;
+            cmd.Parameters.Add("@item_name", MySqlDbType.VarChar).Value = fileEntry.item_name;
+            cmd.Parameters.Add("@quantity", MySqlDbType.Int64).Value = fileEntry.quantity;
+            cmd.Parameters.Add("@location", MySqlDbType.VarChar).Value = fileEntry.location;
             try
             {
                 cmd.ExecuteNonQuery();
@@ -89,17 +103,8 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             }
             con.Close();
         }
-
-        public static void DisplayAndSerach(string query, DataGridView dgv)
-        {
-            string sql = query;
-            MySqlConnection con = GetConnection();
-            MySqlCommand cmd = new MySqlCommand(sql, con);
-            MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
-            DataTable tbl = new DataTable();
-            adp.Fill(tbl);
-            con.Close();
-        }
+        */
+       
 
      }
 }

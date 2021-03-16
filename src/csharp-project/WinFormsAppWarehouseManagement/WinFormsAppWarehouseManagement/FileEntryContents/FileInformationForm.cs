@@ -42,7 +42,7 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
                 MessageBox.Show("Id is Empty");
                 return;
             }
-            if (itemNameTextBox.Text.Trim().Length == 1)
+            if (itemNameTextBox.Text.Trim().Length == 0)
             {
                 MessageBox.Show("Item name is Empty");
                 return;
@@ -61,6 +61,8 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             }
             if(btSave.Text == "Save")
             {
+               // int id = int.Parse(idTextBox.Text);
+                //int quantity = int.Parse(quantityTextBox.Text);
                 FileEntry fileEntry = new FileEntry(idTextBox.Text.Trim(), itemNameTextBox.Text.Trim(), quantityTextBox.Text.Trim(), locationTextBox.Text.Trim());
                 FileEntryContents.DbFileEntry.AddFile(fileEntry);
                 Clear();
